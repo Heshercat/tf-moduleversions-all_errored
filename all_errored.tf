@@ -1,4 +1,4 @@
-resource "null_resource" "name" {
+resource "null_resource" "name"
   triggers = {
     trigger = var.var
   }
@@ -10,3 +10,4 @@ variable "var" {
 
 output "out" {
   value = var.var
+}
